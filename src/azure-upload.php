@@ -2,8 +2,8 @@
 
 namespace providencecollege\AzureUpload;
 
-class Azure_Upload_Form {
-    
+class AzureUploadForm {
+
 	/*--------------------------------------------------------------------------------------
     *
     * Add Actions
