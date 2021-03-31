@@ -1,0 +1,15 @@
+{
+  "name": "providencecollege/azure-upload",
+  "authors": [
+    {
+      "name": "Matt Bevilacqua",
+      "email": "mbevilac@providence.edu"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "providencecollege\\AzureUpload\\": "src/"
+    }
+  }
+}
