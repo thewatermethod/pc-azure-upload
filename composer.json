@@ -6,6 +6,7 @@
       "email": "mbevilac@providence.edu"
     }
   ],
+  "minimum-stability": "stable",
   "require": {},
   "autoload": {
     "psr-4": {
