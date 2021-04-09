@@ -12,14 +12,11 @@ class AzureUploadForm {
 
 	public static function init() {	
 		add_action('admin_menu', array( __CLASS__, 'add_tools_page' ));
-
 	}
-
 	
 	public static function add_tools_page(){
 		add_management_page( 'Upload your Tableau Files','Upload your Tableau Files','edit_posts', 'tableau-upload', array(__CLASS__, 'render_tools_page') );
-	}
-		
+	}		
 
 	public static function render_tools_page() {
 			$azuresas = get_theme_mod( 'opts_azure_sas' );
